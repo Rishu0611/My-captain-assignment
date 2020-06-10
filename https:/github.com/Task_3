@@ -1,1 +1,32 @@
 
+# Assigning elements to list
+
+actor = ["Rajkumar rao","Salman khan","Vicky kaushal","Siddharth Malhotra"]
+print(actor)
+
+actor.append("Amir Khan")
+print(actor)
+
+print(actor[0])
+print(actor[0:2])
+
+
+# Accessing elements of tuple
+
+actress = ("Shraddha kapoor","Kajol","Bhoomi","Alia bhatt")
+print(actress)
+
+print(actress[2])
+print(len(actress))
+
+
+# Deleting elements from dictionary
+
+roles ={"Anurag Basu":"Writer","Gauri khan":"Producer","Arijit Singh":"Singer"}
+print(roles)
+
+roles["Sanjay leela bhansali"]= "Director"
+print(roles)
+
+del roles["Gauri khan"]
+print(roles)
